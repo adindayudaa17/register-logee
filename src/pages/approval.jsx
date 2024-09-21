@@ -62,6 +62,7 @@ export default function AdminApprovalPage() {
                 showNotification('error', 'Invalid token');
             }
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [token]);
 
     return (
