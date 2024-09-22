@@ -77,9 +77,11 @@ export default function AdminApprovalPage() {
 
                 <div className="border-t border-b border-gray-200 py-4">
                     <h3 className="text-lg font-medium text-gray-900">User Details</h3>
-                    <p className="mt-1 text-sm text-gray-600">Name: {userData ? userData.name : ''}</p>
+                    <p className="mt-1 text-sm text-gray-600">Nama Perusahaan: {userData ? userData.businessName : ''}</p>
+                    <p className="mt-1 text-sm text-gray-600">Penanggung Jawab Perusahaan: {userData ? userData.businessManager : ''}</p>
+                    <p className="mt-1 text-sm text-gray-600">Alamat Perusahaan: {userData ? userData.businessAddress : ''}</p>
+                    <p className="mt-1 text-sm text-gray-600">Nama Bank: {userData ? userData.bankName : ''}</p>
                     <p className="mt-1 text-sm text-gray-600">Email: {userData ? userData.email : ''}</p>
-                    <p className="mt-1 text-sm text-gray-600">Business: {userData ? userData.businessName : ''}</p>
                 </div>
 
                 <div className="flex justify-center space-x-4">
