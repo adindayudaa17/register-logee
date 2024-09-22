@@ -79,7 +79,7 @@ export default function RegisterPage() {
             formDataToSend.append('name', formData.name);
             formDataToSend.append('email', formData.email);
             formDataToSend.append('password', formData.password);
-            formDataToSend.append('phone', formData.phone);
+            formDataToSend.append('phone', formData.phoneNumber);
             formDataToSend.append('businessName', formData.businessName);
             formDataToSend.append('businessType', formData.businessType);
             formDataToSend.append('businessAddress', formData.businessAddress);
